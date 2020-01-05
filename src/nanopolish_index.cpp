@@ -319,7 +319,7 @@ int index_main(int argc, char** argv)
     // and fast5_fail. This will be fixed by ONT but in the meantime we check for
     // fast5 files that have a non-standard number of reads (>4000) and remove them
     // from the map. These fast5s will be indexed the slow way.
-    clean_fast5_map(fast5_to_read_name_map);
+    // clean_fast5_map(fast5_to_read_name_map);
 
     // import read names, and possibly fast5 paths, from the fasta/fastq file
     ReadDB read_db;
